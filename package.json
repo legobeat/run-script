@@ -4,6 +4,7 @@
   "description": "Run a lifecycle script for a package (descendant of npm-lifecycle)",
   "author": "GitHub Inc.",
   "license": "ISC",
+  "type": "module",
   "scripts": {
     "test": "tap",
     "eslint": "eslint \"**/*.{js,cjs,ts,mjs,jsx,tsx}\"",

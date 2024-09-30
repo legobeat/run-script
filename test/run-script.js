@@ -1,6 +1,6 @@
-const t = require('tap')
-const spawk = require('spawk')
-const runScript = require('..')
+import t from 'tap'
+import spawk from 'spawk'
+import runScript from '../lib/run-script.js'
 
 t.test('run-script', async t => {
   const emptyDir = t.testdir({})
