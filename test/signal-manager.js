@@ -1,7 +1,7 @@
-const { EventEmitter } = require('events')
-const { test } = require('tap')
+import { EventEmitter } from 'events'
+import { test } from 'tap'
 
-const signalManager = require('../lib/signal-manager')
+import signalManager from '../lib/signal-manager.js'
 
 test('adds only one handler for each signal, removes handlers when children have exited', t => {
   const procOne = new EventEmitter()

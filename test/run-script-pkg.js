@@ -1,6 +1,6 @@
-const t = require('tap')
-const spawk = require('spawk')
-const runScript = require('..')
+import t from 'tap'
+import spawk from 'spawk'
+import runScript from '../lib/run-script.js'
 
 const isWindows = process.platform === 'win32'
 const emptyDir = t.testdir({})

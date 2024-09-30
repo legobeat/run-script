@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
-const t = require('tap')
-const runScript = require('..')
+import t from 'tap'
+import runScript from '../lib/run-script.js'
 
 const cases = [
   ['no options', false, 'invalid options object provided to runScript'],
