@@ -2,9 +2,9 @@
 
 'use strict'
 
-const { readdirSync: readdir } = require('fs')
+import { readdirSync } from 'fs'
 
-const localConfigs = readdir(__dirname)
+const localConfigs = readdirSync(__dirname)
   .filter((file) => file.startsWith('.eslintrc.local.'))
   .map((file) => `./${file}`)
 
