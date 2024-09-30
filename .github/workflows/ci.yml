@@ -15,7 +15,6 @@ on:
 jobs:
   lint:
     name: Lint
-    if: github.repository_owner == 'npm'
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -46,7 +45,6 @@ jobs:
 
   test:
     name: Test - ${{ matrix.platform.name }} - ${{ matrix.node-version }}
-    if: github.repository_owner == 'npm'
     strategy:
       fail-fast: false
       matrix:
