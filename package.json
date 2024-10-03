@@ -1,6 +1,6 @@
 {
   "name": "@npmcli/run-script",
-  "version": "9.0.0",
+  "version": "9.0.1",
   "description": "Run a lifecycle script for a package (descendant of npm-lifecycle)",
   "author": "GitHub Inc.",
   "license": "ISC",
@@ -22,11 +22,11 @@
   },
   "dependencies": {
     "@npmcli/node-gyp": "^4.0.0",
-    "@npmcli/package-json": "^5.0.0",
+    "@npmcli/package-json": "^6.0.0",
     "@npmcli/promise-spawn": "^8.0.0",
     "node-gyp": "^10.0.0",
     "proc-log": "^5.0.0",
-    "which": "^4.0.0"
+    "which": "^5.0.0"
   },
   "files": [
     "bin/",
